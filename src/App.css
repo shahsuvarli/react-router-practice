@@ -29,3 +29,6 @@ li > * {
   font-size: 40px;
   text-decoration: none;
 }
+.selected{
+  color:red;
+}
