@@ -1,12 +1,7 @@
 import React, { Component, lazy } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
-// import About from "../../pages/About/About";
-// import Contact from "../../pages/Contact";
-// import Home from "../../pages/Home";
-// import ProductDetail from "../../pages/Product/ProductDetail";
-// import Products from "../../pages/Product/Products";
-// import ErrorPage from "../../pages/Error";
-// import Header from "./Header";
+
+
 
 const Home = lazy(() => import("../../pages/Home"));
 const About = lazy(() => import("../../pages/About/About"));
